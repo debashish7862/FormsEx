@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Forms</title>
+</head>
+<style>
+    body {
+        background-color: bisque;
+    }
+    
+    p {
+        color: blueviolet;
+    }
+</style>
+
+<body>
+    <fieldset>
+        <h1 style="text-align: center; font-family: Verdana; color: rgb(25, 67, 53); ">College Forms</h1>
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <label for="batchname">Batch Name:</label>
+                <input type="text" id="batchname" name="batchname">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age">
+                <label for="dob">Date Of Birth</label>
+                <input type="date" id="dob" name="dob">
+                <p>Gender: <label for="gender">Male</label>
+                    <input type="radio" id="gender" name="gender">
+                    <label for="gender">Female</label>
+                    <input type="radio" id="gender" name="gender"></p>
+
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
+
+        </div>
+    </fieldset>
+
+</body>
+
+</html>
